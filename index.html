@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<meta charset="UTF-8">
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>KevinYawe-Home-Page</title>
+	<link rel="icon" href="assets/img/icon.png">
+	<!-- ========== CSS INCLUDES ========== -->
+	<link rel="stylesheet" href="assets/css/master.css">
+</head>
+<body>
+<style scoped>
+    .rsContent {
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+
+	<div class="page-loader">
+	     <div class="vertical-align align-center">
+	          <img src="assets/loader/loader.gif" alt="" class="loader-img">
+	     </div>
+    </div>
+	<!-- =============== START PLAYER ================ -->
+	<div class="main-music-player">
+		<a class="hide-player-button">
+			<i class="fa fa-plus"></i>
+			<i class="fa fa-minus"></i>
+		</a>
+		<div id="mesh-main-player" class="jp-jplayer" data-audio-src="assets/audio/marama.mp3" data-title="Marama ft. KevinYawe" data-artist="KevinYawe"></div>
+		
+		<div id="mesh-main-player-content" class="mesh-main-player" role="application" aria-label="media player">
+			<div class="container">
+				<div class="row">
+					<div class="left-player-side">
+						<div class="mesh-prev">
+							<i class="fa fa-step-backward"></i>
+						</div>
+						<div class="mesh-play">
+							<i class="fa fa-play"></i>
+						</div>
+						<div class="mesh-pause">
+							<i class="fa fa-pause"></i>
+						</div>
+						<div class="mesh-next">
+							<i class="fa fa-step-forward"></i>
+						</div>
+						<button id="playlist-toggle" class="jplayerButton">
+							<span class="span-1"></span>
+							<span class="span-2"></span>
+							<span class="span-3"></span>
+						</button>
+					</div>
+					<div class="center-side">
+						<div class="mesh-current-time">
+						</div>
+						<div class="mesh-seek-bar">
+							<div class="mesh-play-bar">
+							</div>
+						</div>
+						<div class="mesh-duration">
+						</div>
+					</div>
+					<div class="right-player-side">
+						<div class="mesh-thumbnail">
+							<img src="assets/img/cover3.jpg" alt="">
+						</div>
+						<div class="mesh-title">
+						</div>
+						<div class="mesh-artist">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =============== END PLAYER ================ -->
+
+	<!-- =============== START PLAYLIST ================ -->
+	<div class="playlist-wrapper" id="playlist-wrapper">
+		<div class="jp-playlist container">
+			<div class="about-list clearfix">
+				<span class="about-name">NAME</span>
+				<span class="about-length">LENGTH</span>
+				<span class="about-available">AVAILABLE ON</span>
+			</div>
+			<div class="trak-item" data-audio="assets/audio/marama.mp3" data-artist="KevinYawe" data-thumbnail="assets/img/albums/cover1.jpg" data-id="trak-200">
+				<audio preload="metadata" src="assets/audio/marama.mp3" title="Marama"></audio>
+				<div class="additional-button">
+					<div class="center-y-table">
+						<a href="#">
+							<i class="fa fa-headphones"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-apple"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-soundcloud"></i>
+						</a>
+					</div>
+				</div>
+				<div class="play-pause-button">
+					<div class="center-y-table">
+						<i class="fa fa-play"></i>
+					</div>
+				</div>
+				<div class="name-artist">
+					<div class="center-y-table">
+						<h2>
+							KevinYawe - Jehova Marama Ft. Shirazu
+						</h2>
+					</div>
+				</div>
+				<time class="trak-duration">
+					00:00
+				</time>
+			</div>
+			<div class="trak-item" data-audio="assets/audio/marama.mp3" data-artist="KevinYawe " data-thumbnail="assets/img/cover2.jpg" data-id="trak-201">
+				<audio preload="metadata" src="assets/audio/marama.mp3" title="KevinYawe"></audio>
+				<div class="additional-button">
+					<div class="center-y-table">
+						<a href="#">
+							<i class="fa fa-headphones"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-apple"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-soundcloud"></i>
+						</a>
+					</div>
+				</div>
+				<div class="play-pause-button">
+					<div class="center-y-table">
+						<i class="fa fa-play"></i>
+					</div>
+				</div>
+				<div class="name-artist">
+					<div class="center-y-table">
+						<h2>
+							KevinYawe ft. Shirazu - Marama
+						</h2>
+					</div>
+				</div>
+				<time class="trak-duration">
+					00:00
+				</time>
+			</div>
+			
+		</div>
+	</div>
+	<!-- =============== END PLAYLIST ================ -->
+
+	<!-- =============== START TOP HEADER ================ -->
+	<div class="topHeader" >
+
+
+		<!-- =============== STAR LOGO ================ -->
+		<div class="logo-container-top">
+	        <a href="index.html"><img src="assets/img/logo11.png" alt="KevinYawe"></a>
+	    </div><!-- end logo-container-top -->
+		<!-- =============== END LOGO ================ -->
+	</div><!-- end topHeader -->
+	<!-- =============== END TOP HEADER ================ -->
+
+	<!-- =============== START BREADCRUMB ================ -->
+	<section class="no-mb" id="top">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="before-FullscreenSlider"></div>
+				<div class="breadcrumb-fullscreen-parent sliderContainerBreadcrumb">
+					<div class="starTitle">
+	                	<h4>Glorified</h4>
+	                	<div class="grid__item">
+	                		<h1>
+			                	<a class="link link-yaku" href="#">
+									<span>KE</span><span>VI</span><span>N</span><span>YA</span><span>WE</span>					
+								</a>
+					        </h1>
+	                	</div>	                	<h4>Records</h4>
+	                </div>
+					<div id="ava-slider" class="royalSlider  heroSlider rsMinW change-header-items-color">
+						<div class="rsContent" style="background-image: url(assets/img/kkv.jpg);">
+							<img class="rsImg" src="assets/img/kkv.jpg" alt="">
+						</div>
+						<div class="rsContent" style="background-image: url(assets/img/royal.png);">
+							<img class="rsImg" src="assets/img/royal.png" alt="">
+						</div>
+						<div class="rsContent" style="background-image: url(assets/img/jjf.png);">
+							<img class="rsImg" src="assets/img/jjf.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>ß
+		</div>
+	</section>
+
+	
+
+	<!-- =============== START BIOGRAPHY SECTION ================ -->
+	<section style="background-image:url(assets/img/content/.jpg);" class="biography padding background-properties" id="content">
+		<div class="container">
+			<div class="sectionTitle paddingBottom">
+				<span class="heading-t3"></span>
+				<h2><a href="albums.html">Biography</a></h2>
+				<span class="heading-b3"></span>
+			</div><!-- end sectionTtile -->
+			<div class="row">
+				<div class="col-sm-6">
+					<p>Kevin yawe is a gospel minister , a song writer and a lover of God. Having received a calling to spread the gospel using the medium of song ministration, has set out in obedience to the call in releasing a couple of gospel singles.</p>
+					
+				</div>
+				<div class="col-sm-6">
+					<p>He started out as a secular artist in 2009. But having given my life to Christ in 2010, He began to seek God to know his plan for his life. He received the call to preach the gospel through songs In 2012.</p>
+					
+					<div class="signature">
+						<a href="#">KevinYawe:</a>
+						<div class="imgSignuature">
+							<img src="assets/img/signature.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- end container -->
+	</section>
+	
+
+	<!-- =============== START VIDEO SECTION ================ -->
+	<section class="videoHome padding">
+		<div class="container">
+			<div class="row">
+				<div class="sectionTitle">
+					<span class="heading-t3"></span>
+					<h2>Upload Video</h2>
+					<span class="heading-b3"></span>
+					<p>Check out my latest videos and follow me on <a href="#">Youtube</a> & <a href="#">Vimeo</a> to view more.</p>
+				</div><!-- end sectionTtile -->
+				<div class="col-md-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/VV-Q-aRHTDE"  allowfullscreen></iframe>
+				</div><!-- end col-sm-4 -->
+				<!-- <div class="col-sm-4">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/VxG5C4q_rEs"  allowfullscreen></iframe>
+				</div> --><!-- end col-sm-4 -->
+				<!-- <div class="col-sm-4">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/OkbuRa1o1wA"  allowfullscreen></iframe>
+				</div> --> <!-- end col-sm-4 -->
+			</div>
+		</div>
+	</section>
+	<!-- =============== END VIDEO SECTION ================ -->
+
+	<!-- =============== START GALLERY SECTION ================ -->
+	<section style="padding-bottom:0; padding-top:0;">
+		<div class="gallerySection">
+			<div class="container-fluid" style="padding:0;">
+				<div class="col-sm-12">
+					<!-- Content Container -->
+					<div class="content-container clearfix">
+						<!-- Single Album Container -->
+						<div class="single-photo-album-container">
+							<div class="row">
+								<!-- Single Album Article -->
+								<article class="col-sm-12 col-md-6 col-xs-12">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<!-- Single Album Image -->
+											<div class="hovereffect">
+										        <img class="img-responsive" src="assets/img/slidea.jpg" alt="">
+										        <div class="overlay">
+										           <a class="info lightbox" href="assets/img/slidea.jpg"></a>
+										        </div>
+										    </div>
+										</figcaption>
+										<!-- Single Album View Button -->
+										
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+									        <img class="img-responsive" src="assets/img/slideb.jpg" alt="">
+									        <div class="overlay">
+									           <a class="info lightbox" href="assets/img/slideb.jpg"></a>
+									        </div>
+									    </div>
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+									        <img class="img-responsive" src="assets/img/jjf.png" alt="">
+									        <div class="overlay">
+									           <a class="info lightbox" href="assets/img/jjf.png"></a>
+									        </div>
+									    </div>
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+									        <img class="img-responsive" src="assets/img/slidec.jpg" alt="">
+									        <div class="overlay">
+									           <a class="info lightbox" href="assets/img/slidec.jpg"></a>
+									        </div>
+									    </div>
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-3 col-xs-6">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+									        <img class="img-responsive" src="assets/img/slided.jpg" alt="">
+									        <div class="overlay">
+									           <a class="info lightbox" href="assets/img/slided.jpg"></a>
+									        </div>
+									    </div>
+										</figcaption>
+									</figure>
+								</article>
+								<!-- Single Album Article -->
+								<article class="col-sm-12 col-md-6 col-xs-12">
+									<!-- Single Album Contant Container -->
+									<figure>
+										<!-- Single Album Image -->
+										<figcaption>
+											<div class="hovereffect">
+									        <img class="img-responsive" src="assets/img/slidee.jpg" alt="">
+									        <div class="overlay">
+									           <a class="info lightbox" href="assets/img/slidee.jpg"></a>
+									        </div>
+									    </div>
+										</figcaption>
+									</figure>
+								</article>								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- end container -->
+		</div>
+	</section>
+	<!-- =============== END GALLERY SECTION ================ -->
+
+
+
+
+
+	<!-- =============== START CONTACT ================ -->
+	<section class="contactSingle padding background-properties" id="content" style="background-image:url();">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="contactTop">
+						<h2>Contact Information</h2>
+						<h4>198 West 21th Street, Suite 721, Ajah Lagos</h4>
+						<p>For Sponsorship, Management, Shows, Endorsement, contact<br>
+						Glorified Records
+						</p>
+						<div class="contactInfo">
+							<ul>
+								<li>Email: <a href="#">glorifiedrecords@gmail.com</a></li>
+								<li>Phone: <a href="#">+234 810 108 1367</a></li>
+								<!-- <li>Fax: <a href="#">+234 810 108 1367</a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div><!-- end col-sm-4 -->
+				<div class="col-sm-7 col-sm-offset-1">
+					<div class="singleBlogForm">
+						<h2>Get in Touch</h2>
+						<form action="#" method="post" class="comment-form">
+							<input id="author" name="author" type="text" value="" aria-required="true" required="" placeholder="First Name *">
+							<input id="lastName" name="email" type="text" value="" aria-required="true" required="" placeholder="Last Name">
+							<input id="url" name="url" type="text" value="" placeholder="Subject* ">
+							<input id="address" name="url" type="text" value="" placeholder="Email Address* ">
+							<textarea name="comment" placeholder="Message..." rows="6" required=""></textarea>
+							<p class="form-submit">
+								<input name="submit" type="submit" id="submit" value="Send Email">
+							</p>
+						</form>
+					</div><!-- end contactForm -->
+				</div><!-- end col-sm-7 col-sm-offset-1 -->
+			</div>
+		</div><!-- end container -->
+	</section>
+	<!-- =============== END CONTACT ================ -->
+
+	<!-- =============== START MAP ================ -->
+	<div id="map"></div>
+	<!-- =============== END MAP ================ -->
+
+	<!-- =============== START HOME-SHOP SECTION ================ -->
+	
+
+
+	<!-- =============== END HOME-SHOP SECTION ================ -->
+
+	<!-- =============== START FOOTER ================ -->
+	<section style="background-color:#eeeeee;">
+		<div class="footer footerPadding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="copyFooter">
+							<a href="#">&copy; Aqura 2016</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<nav class="social-icons">
+							<ul class="clearfix">
+	                			<li><a href="#" class="icon-button shopIcon"><i class="fa fa-twitter"></i><span></span></a></li>
+	                			<li><a href="#" class="icon-button shopIcon"><i class="fa fa-facebook"></i><span></span></a></li>
+	                			<li><a href="#" class="icon-button shopIcon"><i class="fa fa-apple"></i><span></span></a></li>
+	                			<li><a href="#" class="icon-button shopIcon"><i class="fa fa-lastfm"></i><span></span></a></li>
+	                			<li><a href="#" class="icon-button shopIcon"><i class="fa fa-soundcloud"></i><span></span></a></li>
+                			</ul>
+						</nav>
+					</div>
+					<div class="col-sm-4">
+						<div class="goTop back-to-top" id="back-to-top">
+							<i class="fa fa-angle-up"></i>
+							<a href="#">Go Top</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =============== END FOOTER ================ -->
+
+	<!-- ================================================== -->
+	<!-- =============== START JQUERY SCRIPTS ================ -->
+	<!-- ================================================== -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script type="text/javascript" src="assets/jplayer/jplayer/jquery.jplayer.js"></script>
+	<script src="assets/js/counter.js"></script>
+	<script src="assets/js/jPlayer.js"></script>
+	<script src="assets/js/mainSlider.js"></script>
+	
+	<!-- ================================================== -->
+	<!-- =============== END JQUERY SCRIPTS ================ -->
+	<!-- ================================================== -->
+	
+</body>
+
+</html>
